@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Universidad>
+    <Estudiantes>
+        <Estudiante>
+            <Carnet>1000548316</Carnet>
+            <Nombre>Josue</Nombre>
+            <Apellido>Mesa</Apellido>
+            <SemestreIngreso>2019-1</SemestreIngreso>
+            <Promedio>3.8</Promedio>
+        </Estudiante>
+        <Estudiante>
+            <Carnet>2222</Carnet>
+            <Nombre>Miguel</Nombre>
+            <Apellido>Ortiz</Apellido>
+            <SemestreIngreso>2019-2</SemestreIngreso>
+            <Promedio>3.8</Promedio>
+        </Estudiante>
+        <Estudiante>
+            <Carnet>3333</Carnet>
+            <Nombre>Jhon</Nombre>
+            <Apellido>Doe</Apellido>
+            <SemestreIngreso>2020-2</SemestreIngreso>
+            <Promedio>3.4</Promedio>
+        </Estudiante>
+        <Estudiante>
+            <Carnet>4444</Carnet>
+            <Nombre>Manuela</Nombre>
+            <Apellido>Ortiz</Apellido>
+            <SemestreIngreso>2015-2</SemestreIngreso>
+            <Promedio>3.2</Promedio>
+        </Estudiante>
+    </Estudiantes>
+    <Asignaturas>
+        <Asignatura>
+            <NombreAsignatura>PDYP</NombreAsignatura>
+            <IntensidadSemanal>4</IntensidadSemanal>
+            <Semestre>8</Semestre>
+        </Asignatura>
+        <Asignatura>
+            <NombreAsignatura>IO</NombreAsignatura>
+            <IntensidadSemanal>6</IntensidadSemanal>
+            <Semestre>7</Semestre>
+        </Asignatura>
+    </Asignaturas>
+</Universidad>
