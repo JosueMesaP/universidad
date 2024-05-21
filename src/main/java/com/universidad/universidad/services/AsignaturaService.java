@@ -35,11 +35,13 @@ public class AsignaturaService {
         return asignaturasModel;
     }//Fin update
 
+
     public Boolean deleteAsignatura(Long idAsignatura){
         try{
             asignaturasRepository.deleteById(idAsignatura);
             return true;
         }catch (Exception e){
+            System.out.println("Error: "+e.getMessage());
             return false;
         }
     }//Fin delete

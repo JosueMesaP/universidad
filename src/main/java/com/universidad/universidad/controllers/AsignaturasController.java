@@ -19,7 +19,7 @@ public class AsignaturasController {
     }
 
     @PostMapping
-    public AsignaturasModel saveEstudiante(@RequestBody AsignaturasModel asignaturasModel){
+    public AsignaturasModel saveAsignatura(@RequestBody AsignaturasModel asignaturasModel){
         return this.asignaturasService.saveAsignaturas(asignaturasModel);
     }
 
@@ -33,7 +33,7 @@ public class AsignaturasController {
         return this.asignaturasService.updateAsignaturabyId(request, idAsignatura);
     }//fin update
 
-    @DeleteMapping(path = "/{idEstudiante}")
+    @DeleteMapping(path = "/{idAsignatura}")
     public String deleteAsignatura(@PathVariable("idAsignatura")Long idAsignatura){
         Boolean ok = this.asignaturasService.deleteAsignatura(idAsignatura);
         if(ok){
